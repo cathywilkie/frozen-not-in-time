@@ -1,4 +1,66 @@
 html {
-  font-family: "", sans-serif;
-  color: #fff;
+  font-family: "Fredoka One", sans-serif;
+  color: #c09;
 }
+
+body {
+  background-color: #b3fbff;
+  background-image: repeating-linear-gradient(-30deg, #d4fdff, #d4fdff 10px, #c9fcff 10px, #c9fcff 20px);
+}
+
+
+.intro-paragraph {
+  text-shadow: 1.5px 1px rgba(114, 91, 111, 0.3);
+  max-width: 19em;
+  transform-origin: left center;
+}
+
+h1 {
+  color: #990073;
+  transform: rotate(-10deg);
+  transition: all .4s linear;
+}
+
+.btn {
+  padding: .5em 0;
+  color: #c09;
+  text-decoration: none;
+}
+
+.btn-ghost {
+  border: solid 3px;
+  border-color: #990073;
+  border-radius: 4px;
+}
+
+.btn-ghost:hover,
+.btn-ghost:focus {
+  background-color: rgba(255, 160, 219, 0.145);
+}
+
+.ice-cream {
+  margin: 50px auto;
+  position: relative;
+}
+
+#cone {
+  position: absolute;
+  bottom: calc(50% - 8px);
+  left: calc(50% - 7px);
+}
+
+/* #ice-cream {
+  animation: cone 3s infinite forwards;
+}
+
+@keyframes cone {
+
+  0% {
+    transform: translateY(77);
+  }
+
+  100% {
+    transform: translateY(-8px);
+  }
+
+} */
